@@ -85,7 +85,10 @@ bool deleteNode(int nim) {
 }
 
 bool listEmpty() {
-
+    if (START == NULL)
+        return true;
+    else
+        return false;
 }
 
 
